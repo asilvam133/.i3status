@@ -7,7 +7,6 @@ general {
 }
 
 order += "disk /"
-# order += "battery all"
 order += "load"
 order += "tztime local"
 
@@ -16,7 +15,7 @@ battery all {
 }
 
 tztime local {
-        format = "%d-%m-%Y %H:%M:%S"
+        format = "%d-%m-%Y %H:%M"
 }
 
 load {
